@@ -38,6 +38,8 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
 }
 
 .carousel-button {
@@ -61,6 +63,62 @@
     transition: transform 0.3s;
 }
 
+.carousel-header {
+    border: solid 0px;
+    border-radius: 100px;
+    background-color: rgba(201, 151, 87, 0.5);
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 550px;
+    font-size: 100px;
+}
+
 .content {
-    background-color: brown;
+    background-color: rgb(139, 69, 19);
+}
+
+.categories {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.category {
+    width: 600px;
+    height: 400px;
+}
+
+.category.men {
+    background-image: url("./img/man.jpg");
+    background-size: cover;
+}
+
+.category.women {
+    background-image: url("./img/woman.jpg");
+    background-size: cover;
+}
+
+.category-box {
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-box a {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category-box a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
 }
