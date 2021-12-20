@@ -75,7 +75,7 @@
 }
 
 .content {
-    background-color: rgb(139, 69, 19);
+    background-color: rgb(111, 78, 55);
 }
 
 .categories {
@@ -121,4 +121,53 @@
 .category-box a:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
+}
+
+.items {
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+}
+
+.item .hoodie {
+    border: solid 1px red;
+    background-image: url("./img/hoodie.png");
+    background-size: cover;
+}
+
+.item .t-shirt {
+    border: solid 1px red;
+    background-image: url("./img/tricko.png");
+    background-size: cover;
+}
+
+.item .shoe {
+    border: solid 1px red;
+    background-image: url("./img/topanka.png");
+    background-size: cover;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.page-footer {
+    background-color: rgb(222, 184, 135);
 }
