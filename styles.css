@@ -131,26 +131,46 @@
 }
 
 .item {
-    width: 200px;
-    height: 300px;
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
 }
 
-.item .hoodie {
-    border: solid 1px red;
+.item-image {
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+}
+
+.item-text {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-text p {
+    margin: 0vh;
+}
+
+.item-image.item-hoodie {
     background-image: url("./img/hoodie.png");
-    background-size: cover;
 }
 
-.item .t-shirt {
-    border: solid 1px red;
+.item-image.item-tshirt {
     background-image: url("./img/tricko.png");
-    background-size: cover;
 }
 
-.item .shoe {
-    border: solid 1px red;
+.item-image.item-shoe {
     background-image: url("./img/topanka.png");
-    background-size: cover;
 }
 
 .map-responsive {
