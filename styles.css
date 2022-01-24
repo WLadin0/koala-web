@@ -1,0 +1,241 @@
+.navbar {
+    background-color: rgba(222, 184, 135, 0.5);
+    padding-right: 100px;
+    padding-left: 100px;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.navbar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar img {
+    width: 100px;
+    height: auto;
+}
+
+.carousel-caption {
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.carousel-button {
+    /* pozriet css flexbox*/
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-button a {
+    width: 10%;
+    border: solid 5px white;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-button a:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.carousel-header {
+    border: solid 0px;
+    border-radius: 100px;
+    background-color: rgba(201, 151, 87, 0.5);
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    font-size: 100px;
+}
+
+.content {
+    background-color: rgb(111, 78, 55);
+}
+
+.categories {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.category {
+    width: 600px;
+    height: 400px;
+}
+
+.category.men {
+    background-image: url("./img/man.jpg");
+    background-size: cover;
+}
+
+.category.women {
+    background-image: url("./img/woman.jpg");
+    background-size: cover;
+}
+
+.category-box {
+    height: 100%;
+    width: 100%;
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-box a {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.category-box a:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+.items {
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item {
+    width: 350px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-image-box {
+    width: 300px;
+    height: 350px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+}
+
+.item-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.item-text {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-text a {
+    margin: 0vh;
+    color: white;
+    text-decoration: none;
+}
+
+.item-text a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.item-image:hover {
+    transform: scale(1.06);
+    transition: transform 0.5s;
+}
+
+.item-image.item-hoodie {
+    background-image: url("./img/hoodie.png");
+}
+
+.item-image.item-tshirt {
+    background-image: url("./img/tricko.png");
+}
+
+.item-image.item-shoe {
+    background-image: url("./img/topanka.png");
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.page-footer {
+    background-color: rgb(222, 184, 135);
+}
+
+.page-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+}
+
+.page-footer .icon {
+    font-size: x-large;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.page-footer .icon:hover {
+    text-decoration: none;
+}
+
+.page-footer .icon:hover i {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
